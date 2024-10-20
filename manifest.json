@@ -1,0 +1,28 @@
+{
+  "package": "com.application.watch.demo",
+  "name": "cs",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "minPlatformVersion": 1000,
+  "icon": "/common/logo.png",
+  "deviceTypeList": [
+    "watch"
+  ],
+  "features": [
+    {
+      "name": "system.router"
+    }
+  ],
+  "config": {
+    "logLevel": "log",
+    "designWidth": 390
+  },
+  "router": {
+    "entry": "pages/game",
+    "pages": {
+      "pages/game": {
+        "component": "game"
+      }
+    }
+  }
+}
